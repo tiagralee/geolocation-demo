@@ -1,5 +1,5 @@
 (function() {
-    const autocompleteUrlPrefix = 'http://autocomplete.geocoder.api.here.com/6.2/suggest.json?app_id=ByGpw3zfma3YcmKCztWi&app_code=NZVdIXcW4j9FcRon3lHMIg&beginHighlight=<b>&endHighlight=</b>&country=AUS&maxresults=5&query=';
+    const autocompleteUrlPrefix = '/api/autocomplete/';
     document.getElementById('autocomplete-input').addEventListener('keyup', (ele) => {
         //get input value
         console.log('input')
