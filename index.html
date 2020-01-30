@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Location service
+      </h1>
+      <p class="subtitle">
+        This is an autocomplete demo
+      </p>
+    </div>
+    <div class="columns is-centered">
+        <div class="column is-half">
+            <div class="dropdown is-active">
+                <div class="dropdown-trigger">
+                    <div class="control">
+                        <input id="autocomplete-input" class="input is-primary" type="text" placeholder="Please type address">
+                      </div>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                  <div id="dropdown-menu" class="dropdown-content">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
